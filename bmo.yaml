@@ -26,7 +26,28 @@ title: "Please DM one of our moderators."
 
 ---
 id: bot-broken
-title: "Please DM @Primus#1337"
+title: "What is broken?"
+branches:
+  - message: "Music"
+    targetId: bot-broken-music
+  - message: "Not responding"
+    targetId: bot-broken-responding
+  - message: "I want to reset my prefix"
+    targetId: bot-broken-prefix
+  - message: "Anything else"
+    targetId: support
+
+---
+id: bot-broken-music
+title: "The owner is currently working on a fix for this, please wait for a fix to be announced in this server."
+
+---
+id: bot-broken-responding
+title: "Please wait a few minutes, if BMO doesn't respond within that timeframe, please contact @Primus#1337"
+
+---
+id: bot-broken-prefix
+title: "Please use the `./clearprefix` command to reset your prefix"
 
 ---
 id: bot-setting
