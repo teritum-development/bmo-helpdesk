@@ -1,0 +1,49 @@
+---
+id: root
+title: "How may I help you?"
+branches:
+  - message: "I need help with the Bot"
+    targetId: bot-root
+  - message: "I need help with the Server"
+    targetId: server-root
+
+---
+id: bot-root
+title: "You need help with BMO Bot, What's wrong?"
+branches:
+  - message: "Something is broken"
+    targetId: bot-broken
+  - message: "I have a suggestion"
+    targetId: bot-suggestion
+  - message: "I want to change a setting"
+    targetId: bot-setting
+  - message: "None of the above"
+    targetId: support
+
+---
+id: server-root
+title: "Please DM one of our moderators."
+
+---
+id: bot-broken
+title: "Please DM @Primus#1337"
+
+---
+id: bot-setting
+title: "What setting would you like to change?"
+branches:
+  - message: "The Prefix"
+    targetId: bot-setting-prefix
+
+---
+id: bot-setting-prefix
+title: "Please use the `./set prefix` command."
+
+---
+id: bot-suggestion
+title: "Please use the `./suggest` command."
+
+---
+id: support
+title: "Please explain your issue our staff in <#909001125229903882>."
+roleId: 922562816689438730
