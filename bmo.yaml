@@ -34,6 +34,8 @@ branches:
     targetId: bot-broken-responding
   - message: "I want to reset my prefix"
     targetId: bot-broken-prefix
+  - message: "Command or category not found"
+    targetId: bot-broken-cmdcat-not-found
   - message: "Anything else"
     targetId: support
 
@@ -48,6 +50,10 @@ title: "Please wait a few minutes, if BMO doesn't respond within that timeframe,
 ---
 id: bot-broken-prefix
 title: "Please use the `./clearprefix` command to reset your prefix"
+
+---
+id: bot-broken-cmdcat-not-found
+title: "The command is case sensitive for categories, in the future this will become case insensitive."
 
 ---
 id: bot-setting
