@@ -11,6 +11,8 @@ branches:
 id: bot-root
 title: "You need help with BMO Bot, What's wrong?"
 branches:
+  - message: "What is the default prefix"
+    targetId: bot-prefix
   - message: "Something is broken"
     targetId: bot-broken
   - message: "I have a suggestion"
@@ -38,6 +40,10 @@ branches:
     targetId: bot-broken-cmdcat-not-found
   - message: "Anything else"
     targetId: support
+
+---
+id: bot-prefix
+title: "The default bot prefix is `./` but it will also respond by mentioning it."
 
 ---
 id: bot-broken-music
