@@ -47,6 +47,19 @@ title: "The default bot prefix is `./` but it will also respond by mentioning it
 
 ---
 id: bot-broken-music
+title: "What kind of issue are you encountering?"
+branches:
+  - message: "BMO is claiming that it isn't in the voice channel even though it is"
+    targetId: bot-broken-music-summon
+  - message: "Anything Else"
+    targetId: bot-broken-music-other
+
+---
+id: bot-broken-music-summon
+title: "Please use the right click menu to force disconnect bmo from your channel, then use the play command to fix this issue."
+
+---
+id: bot-broken-music-other
 title: "The owner is currently working on a fix for this, please wait for a fix to be announced in this server."
 
 ---
