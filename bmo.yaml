@@ -15,6 +15,8 @@ branches:
     targetId: bot-prefix
   - message: "Something is broken"
     targetId: bot-broken
+  - message: "Music isn't working"
+    targetId: bot-broken-music
   - message: "I have a suggestion"
     targetId: bot-suggestion
   - message: "I want to change a setting"
@@ -51,12 +53,18 @@ title: "What kind of issue are you encountering?"
 branches:
   - message: "BMO is claiming that it isn't in the voice channel even though it is"
     targetId: bot-broken-music-summon
+  - message: "BMO is in the channel and tells your that it has enqueued music yet it isn't playing"
+    targetId: bot-broken-music-play
   - message: "Anything Else"
     targetId: bot-broken-music-other
 
 ---
 id: bot-broken-music-summon
 title: "Please use the right click menu to force disconnect bmo from your channel, then use the play command to fix this issue."
+
+---
+id: bot-broken-music-play
+title: "Please use our partner https://cakeybot.xyz as an alternative while we fix this issue"
 
 ---
 id: bot-broken-music-other
