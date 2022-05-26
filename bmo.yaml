@@ -21,6 +21,8 @@ branches:
     targetId: bot-suggestion
   - message: "I want to change a setting"
     targetId: bot-setting
+  - message: "I would like to listen to spotify music"
+    targetId: bot-music-spotify
   - message: "None of the above"
     targetId: support
 
@@ -53,6 +55,8 @@ title: "What kind of issue are you encountering?"
 branches:
   - message: "BMO is claiming that it isn't in the voice channel even though it is"
     targetId: bot-broken-music-summon
+  - message: "What is the command to play a song / playlist"
+    targetId: bot-broken-music-play-command
   - message: "BMO is in the channel and tells your that it has enqueued music yet it isn't playing"
     targetId: bot-broken-music-play
   - message: "Anything Else"
@@ -65,6 +69,10 @@ title: "Please use the right click menu to force disconnect bmo from your channe
 ---
 id: bot-broken-music-play
 title: "Please use our partner https://cakeybot.app as an alternative while we fix this issue"
+
+---
+id: bot-broken-music-play-command
+title: "The command is `./play`"
 
 ---
 id: bot-broken-music-other
@@ -81,6 +89,10 @@ title: "Please use the `./clearprefix` command to reset your prefix"
 ---
 id: bot-broken-cmdcat-not-found
 title: "The command is case sensitive for categories, in the future this will become case insensitive."
+
+---
+id: bot-music-spotify
+title: "Music from spotify (playlists and songs) has not been implemented yet, rest assured we shall notify you when spotify music is released."
 
 ---
 id: bot-setting
