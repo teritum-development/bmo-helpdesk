@@ -60,7 +60,7 @@ branches:
     targetId: support
 
 ---
-id: bot-restrict-grpcmd
+id: bot-restrict-cmdgrp
 title: "Please use the `./set disabled <GROUP NAME>` please replace `<GROUPNAME>` with the name of the group (case-sensitive)\nPlease use the `./set disabled_command <COMMANDNAME>` with the `<COMMANDNAME>` replaced with the command name (case sensitive.)"
 
 ---
