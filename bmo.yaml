@@ -23,6 +23,8 @@ branches:
     targetId: bot-setting
   - message: "I would like to listen to spotify music"
     targetId: bot-music-spotify
+  - message: "Does BMO support YouTube?"
+    targetId: bot-music-youtube
   - message: "None of the above"
     targetId: support
 
@@ -93,6 +95,10 @@ title: "The command is case sensitive for categories, in the future this will be
 ---
 id: bot-music-spotify
 title: "Music from spotify (playlists and songs) has not been implemented yet, rest assured we shall notify you when spotify music is released."
+
+---
+if: bot-music-youtube
+title: "Music from YouTube is currently supported and it is not planned to discontinue support."
 
 ---
 id: bot-setting
