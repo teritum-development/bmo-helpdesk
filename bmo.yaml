@@ -52,8 +52,20 @@ branches:
     targetId: bot-broken-unknown-error
   - message: "NSFW commands don't work"
     targetId: bot-broken-nsfw
+  - message: "How do I restrict commands/groups"
+    targetId: bot-restrict-cmdgrp
+  - message: "How do I get the description for a group / command on mobile"
+    targetId: bot-desc-grpcmd
   - message: "Anything else"
     targetId: support
+
+---
+id: bot-restrict-grpcmd
+title: "Please use the `./set disabled <GROUP NAME>` please replace `<GROUPNAME>` with the name of the group (case-sensitive)\nPlease use the `./set disabled_command <COMMANDNAME>` with the `<COMMANDNAME>` replaced with the command name (case sensitive.)"
+
+---
+id: bot-desc-grpcmd
+title: "Please use the `./help <GROUP/COMMAND NAME>` command."
 
 ---
 id: bot-prefix
