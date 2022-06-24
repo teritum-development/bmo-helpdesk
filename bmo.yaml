@@ -87,6 +87,8 @@ branches:
     targetId: bot-broken-music-play-command
   - message: "BMO is in the channel and tells your that it has enqueued music yet it isn't playing"
     targetId: bot-broken-music-play
+  - message: "How do I set a DJ role?"
+    targetId: bot-broken-music-dj-role
   - message: "Anything Else"
     targetId: bot-broken-music-other
 
@@ -109,6 +111,10 @@ title: "The command is `./play`"
 ---
 id: bot-broken-music-other
 title: "The owner is currently working on a fix for this, please wait for a fix to be announced in this server."
+
+---
+id: bot-broken-music-dj-role
+title: "Currently this is not supported, it shall be supported in the next large BMO update!"
 
 ---
 id: bot-broken-responding
