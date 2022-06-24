@@ -67,6 +67,8 @@ title: "There is currently no dashboard for BMO, it is planned though and will b
 id: bot-broken-music
 title: "What kind of issue are you encountering?"
 branches:
+  - message: "How do I play music?"
+    targetId: bot-broken-music-play-music
   - message: "BMO is claiming that it isn't in the voice channel even though it is"
     targetId: bot-broken-music-summon
   - message: "What is the command to play a song / playlist"
@@ -79,6 +81,10 @@ branches:
 ---
 id: bot-broken-music-summon
 title: "Please use the right click menu to force disconnect bmo from your channel, then use the play command to fix this issue."
+
+---
+id: bot-broken-music-play-music
+title: "Please use the `./play` command (replace the ./ with your prefix if you have changed your prefix.)"
 
 ---
 id: bot-broken-music-play
