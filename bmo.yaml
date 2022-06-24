@@ -145,7 +145,7 @@ id: bot-music-spotify
 title: "Music from spotify (playlists and songs) has not been implemented yet, rest assured we shall notify you when spotify music is released."
 
 ---
-if: bot-music-youtube
+id: bot-music-youtube
 title: "Music from YouTube is currently supported and it is not planned to discontinue support."
 
 ---
