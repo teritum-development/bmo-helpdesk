@@ -25,6 +25,8 @@ branches:
     targetId: bot-music-spotify
   - message: "Does BMO support YouTube?"
     targetId: bot-music-youtube
+  - message: "Where is the dashboard?" 
+    targetId: bot-dashboard-loc
   - message: "None of the above"
     targetId: support
 
@@ -45,13 +47,21 @@ branches:
   - message: "Command or category not found"
     targetId: bot-broken-cmdcat-not-found
   - message: "Some of the settings aren't changing"
-    targetId: "bot-broken-settings-change"
+    targetId: bot-broken-settings-change
+  - message: "There is an unknown error message or a message with some strange error message."
+    targetId: bot-broken-unknown-error
+  - message: "NSFW commands don't work"
+    targetId: bot-broken-nsfw
   - message: "Anything else"
     targetId: support
 
 ---
 id: bot-prefix
 title: "To find the prefix please use the command `./prefix`, you can also use the bot by using the mention as a prefix."
+
+---
+id: bot-dashboard-loc
+title: "There is currently no dashboard for BMO, it is planned though and will be released ideally when the next large BMO update is released."
 
 ---
 id: bot-broken-music
@@ -97,6 +107,14 @@ title: "The command is case sensitive for categories, in the future this will be
 ---
 id: bot-broken-settings-change
 title: "Sometimes BMO doesn't update the settings, generally in this situation just wait a few hours, if it doesn't work after 3 hours, please let us know by mentioning one of the online admins."
+
+---
+id: bot-broken-unknown-error
+title: "Please inform `@Primus#1337` about the error including your server ID and your message ID."
+
+---
+id: bot-broken-nsfw
+title: "Please ensure the channel that you are using is set to be an NSFW channel, if the command raises an error, please use our partner bot Succubus: https://sccb.us"
 
 ---
 id: bot-music-spotify
