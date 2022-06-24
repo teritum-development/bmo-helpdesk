@@ -44,6 +44,8 @@ branches:
     targetId: bot-broken-prefix
   - message: "Command or category not found"
     targetId: bot-broken-cmdcat-not-found
+  - message: "Some of the settings aren't changing"
+    targetId: "bot-broken-settings-change"
   - message: "Anything else"
     targetId: support
 
@@ -91,6 +93,10 @@ title: "Please use the `./clearprefix` command to reset your prefix"
 ---
 id: bot-broken-cmdcat-not-found
 title: "The command is case sensitive for categories, in the future this will become case insensitive."
+
+---
+id: bot-broken-settings-change
+title: "Sometimes BMO doesn't update the settings, generally in this situation just wait a few hours, if it doesn't work after 3 hours, please let us know by mentioning one of the online admins."
 
 ---
 id: bot-music-spotify
