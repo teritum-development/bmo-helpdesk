@@ -21,10 +21,10 @@ branches:
     targetId: bot-suggestion
   - message: "I want to change a setting"
     targetId: bot-setting
-  - message: "I would like to listen to spotify music"
-    targetId: bot-music-spotify
   - message: "Does BMO support YouTube?"
     targetId: bot-music-youtube
+  - message: "Why is the music cutting out?"
+    targetId: bot-music-cutting-out
   - message: "Where is the dashboard?" 
     targetId: bot-dashboard-loc
   - message: "None of the above"
@@ -99,6 +99,10 @@ title: "Please use the right click menu to force disconnect bmo from your channe
 ---
 id: bot-broken-music-play-music
 title: "Please use the `./play` command (replace the ./ with your prefix if you have changed your prefix.)"
+
+---
+id: bot-music-cutting-out
+title: "Sometimes the music cuts out because you are too far away from our music server (in Dallas, Texas), please donate to add more music servers in different locations at https://bmo.teritum.dev/#donate"
 
 ---
 id: bot-broken-music-play
