@@ -145,10 +145,6 @@ id: bot-broken-nsfw
 title: "Please ensure the channel that you are using is set to be an NSFW channel, if the command raises an error, please use our partner bot Succubus: https://sccb.us"
 
 ---
-id: bot-music-spotify
-title: "Music from spotify (playlists and songs) has not been implemented yet, rest assured we shall notify you when spotify music is released."
-
----
 id: bot-music-youtube
 title: "Music from YouTube is currently supported and it is not planned to discontinue support."
 
